@@ -65,6 +65,7 @@ body * {
   height: 32px;
   background: white var(--switch-bg-url) no-repeat center;
   border-radius: 50%;
+  -webkit-border-radius:50%;
   border: 0px;
   position: absolute;
   z-index: 1;
