@@ -173,12 +173,3 @@ footer{
 #avatar {
   transition: opacity 0.3s ease;
 }
-/*animation */
-@keyframes slide-in{
-  from{
-
-  }
-  to{
-
-  }
-}
