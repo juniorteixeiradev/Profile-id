@@ -88,7 +88,6 @@ body * {
 
 #switch span{
   display: block;
-  overflow: hidden;
   width: 64px;
   height: 24px;
   border: 1px solid var(--stroke-color);
@@ -102,6 +101,13 @@ body * {
 #switch button:hover{
   outline-style: auto;
   outline:8px solid var(--highlight-color);
+}
+
+/* Condição executada apenas no ios devido ao bug do outline*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1) {
+    ::i-block-chrome, #switch button:hover {
+        outline:none;
+    }
 }
 
 ul {
