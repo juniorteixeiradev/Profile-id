@@ -99,6 +99,7 @@ body * {
 }
 
 #switch button:hover{
+  outline: none;
   outline:8px solid var(--highlight-color);
   border-radius: 50%;
 }
