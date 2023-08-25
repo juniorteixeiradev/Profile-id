@@ -49,9 +49,6 @@ body * {
   height: 111px;
 }
 
-.light #profile img{
-  transition: background 1s ease-in;
-}
 
 #profile p {
   font-weight: 500;
@@ -170,5 +167,17 @@ footer{
   }
   .light{
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+#avatar {
+  transition: opacity 0.3s ease;
+}
+/*animation */
+@keyframes slide-in{
+  from{
+
+  }
+  to{
+
   }
 }
