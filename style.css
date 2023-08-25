@@ -173,30 +173,3 @@ footer{
 #avatar {
   transition: opacity 0.3s ease;
 }
-
-@supports (-webkit-touch-callout: none) {
-  /* Estilos a serem aplicados apenas no Safari */
-  #switch button {
-    position: relative;
-  }
-
-  #switch button::before {
-    content: "";
-    position: absolute;
-    top: -8px;
-    left: -8px;
-    width: calc(100% + 16px);
-    height: calc(100% + 16px);
-    border: 8px solid var(--highlight-color);
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-
-  #switch button:hover::before {
-    opacity: 1;
-  }
-}
-
