@@ -100,9 +100,7 @@ body * {
 }
 
 #switch button:hover{
-  outline:8px solid var(--highlight-color);
-}
-.light #switch button:hover{
+  outline-style: auto;
   outline:8px solid var(--highlight-color);
 }
 
