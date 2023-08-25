@@ -64,11 +64,11 @@ body * {
   margin: 4px auto;
 }
 #switch button{ 
-  cursor: pointer;
   width:37px;
   height: 32px;
   background: white var(--switch-bg-url) no-repeat center;
   border-radius: 50%;
+  border: 0px;
   position: absolute;
   z-index: 1;
   left:0;
@@ -86,7 +86,7 @@ body * {
 
 .light #switch button{
   transform: translateX(80%) translateY(-50%);
-  transition: 1s ease-in;
+  transition: 0.5s ease-in;
 }
 
 #switch span{
@@ -101,6 +101,9 @@ body * {
 
 }
 
+#switch button:hover{
+  outline:8px solid var(--highlight-color);
+}
 ul {
   list-style: none;
   display: flex;
