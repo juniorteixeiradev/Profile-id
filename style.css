@@ -88,6 +88,7 @@ body * {
 
 #switch span{
   display: block;
+  overflow: hidden;
   width: 64px;
   height: 24px;
   border: 1px solid var(--stroke-color);
