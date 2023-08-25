@@ -86,7 +86,7 @@ body * {
 
 .light #switch button{
   transform: translateX(80%) translateY(-50%);
-  transition: 0.4s ease-in;
+  border: 0px;
 }
 
 #switch span{
@@ -104,6 +104,7 @@ body * {
 #switch button:hover{
   outline:8px solid var(--highlight-color);
 }
+
 ul {
   list-style: none;
   display: flex;
