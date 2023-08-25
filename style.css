@@ -86,7 +86,7 @@ body * {
 
 .light #switch button{
   transform: translateX(80%) translateY(-50%);
-  transition: 0.5s ease-in;
+  transition: 0.4s ease-in;
 }
 
 #switch span{
