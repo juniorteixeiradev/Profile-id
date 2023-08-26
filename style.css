@@ -101,13 +101,7 @@ body * {
 #switch button:hover{
   outline-style: auto;
   outline:8px solid var(--highlight-color);
-}
-
-/* Condição executada apenas no ios devido ao bug do outline*/
-@media only screen and (-webkit-min-device-pixel-ratio: 1) {
-    ::i-block-chrome, #switch button:hover {
-        outline:none;
-    }
+  clip-path: content-box;
 }
 
 ul {
